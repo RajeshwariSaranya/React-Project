@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7e7e7;
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin: 50px auto;
+  }
+  
+  h6 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+  }
+
+  p {
+    color: black;
+    padding: left;
+  }
+  

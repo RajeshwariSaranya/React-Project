@@ -1,0 +1,36 @@
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: rgb(255, 254, 254);
+  }
+  
+  .menubar .logo h1 {
+    margin: 0;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+    font-size: 18px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .logo h1 {
+    color: white;
+  }

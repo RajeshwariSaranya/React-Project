@@ -1,0 +1,116 @@
+/* Sidebar container */
+#sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #333;
+  color: white;
+  position: fixed;
+  left: -250px; /* Hidden by default */
+  top: 0;
+  transition: left 0.3s ease-in-out;
+  padding: 20px;
+}
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-title .close_icon {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-list-item {
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    
+  }
+  
+  .sidebar-list-item a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar-list-item a:hover {
+    background: #34495e;
+    
+  }
+  
+  .sidebar-list-item .icon {
+    font-size: 20px;
+  }
+  
+  /* Sub-menu styling (for products and themes) */
+  .sidebar-list-item ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .sidebar-list-item ul li {
+    padding: 5px 0;
+    
+  }
+  
+  .sidebar-list-item ul li a {
+    font-size: 16px;
+    color: #dcdde1;
+  }
+  
+  .sidebar-list-item ul li a:hover {
+    color: white;
+  }
+  
+  /* Sidebar Responsive */
+  .sidebar-responsive {
+    left: 0 !important;
+    transition: all 0.3s;
+  }
+  
+  /* Dark theme styles */
+  .dark-theme {
+    background-color: #1a1a2e;
+    color: white;
+  }
+  
+  .dark-theme a {
+    color: #ddd;
+  }
+  
+  .dark-theme a:hover {
+    color: white;
+  }
+  
+  /* Light theme styles */
+  .light-theme {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .light-theme a {
+    color: black;
+  }
+  
+  .light-theme a:hover {
+    color: #2c3e50;
+  }
+  
