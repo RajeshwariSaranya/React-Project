@@ -27,7 +27,7 @@ const LoginPage = () => {
 
   return (
     <div className="login-form">
-      <h2>Login</h2>
+      <h2>Login Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="email">Email</label>
